@@ -19,6 +19,7 @@ This method creates a database or opens an existing one. If you use a `http://do
 
 * `options.name`: You can omit the name argument and specify it via options.
 * `options.auto_compaction`: This turns on auto compaction (experimental).
+* `options.auth`: Basic authentication credentials for HTTP/HTTPS connections in the form of auth.username & auth.password.
 
 #### Example Usage:
 {% highlight js %}
